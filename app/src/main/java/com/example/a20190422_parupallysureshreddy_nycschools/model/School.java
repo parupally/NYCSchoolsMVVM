@@ -1,4 +1,4 @@
-package com.example.a20190422_parupallysureshreddy_nycschools;
+package com.example.a20190422_parupallysureshreddy_nycschools.model;
 
 public class School {
 

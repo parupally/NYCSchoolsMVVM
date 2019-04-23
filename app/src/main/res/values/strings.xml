@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">20190422-ParupallySureshReddy-NYCSchools</string>
+    <string name="school_name">School name:</string>
+    <string name="school_name_text">School name</string>
+    <string name="critical_reading_avg_score">critical_reading_avg_score</string>
+    <string name="math_avg_scor">math_avg_score</string>
+    <string name="writing_avg_score">writing_avg_score</string>
+    <string name="critical_reading_avg_score_dis">critical_reading_avg_score:</string>
+    <string name="math_avg_scor_dis">math_avg_score:</string>
+    <string name="writing_avg_score_dis">writing_avg_score:</string>
 </resources>
