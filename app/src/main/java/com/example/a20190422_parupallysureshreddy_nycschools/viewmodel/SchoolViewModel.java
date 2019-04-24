@@ -4,7 +4,6 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-
 import com.example.a20190422_parupallysureshreddy_nycschools.RetrofitInstance;
 import com.example.a20190422_parupallysureshreddy_nycschools.model.School;
 
@@ -31,6 +30,7 @@ public class SchoolViewModel extends ViewModel {
     }
 
     private void loadSchools() {
+        //network calling
         RetrofitInstance.getInstance().getApi().getSchool().enqueue(new Callback<List<School>>() {
             @Override
             public void onResponse(Call<List<School>> call, Response<List<School>> response) {

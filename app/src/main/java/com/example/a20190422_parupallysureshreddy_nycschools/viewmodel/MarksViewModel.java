@@ -4,8 +4,8 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-import com.example.a20190422_parupallysureshreddy_nycschools.model.Marks;
 import com.example.a20190422_parupallysureshreddy_nycschools.RetrofitInstance;
+import com.example.a20190422_parupallysureshreddy_nycschools.model.Marks;
 
 import java.util.List;
 
@@ -31,6 +31,7 @@ public class MarksViewModel extends ViewModel {
     }
 
     private void loadMarks() {
+        //network calling
         RetrofitInstance.getInstance().getApi().getMarks().enqueue(new Callback<List<Marks>>() {
             @Override
             public void onResponse(Call<List<Marks>> call, Response<List<Marks>> response) {

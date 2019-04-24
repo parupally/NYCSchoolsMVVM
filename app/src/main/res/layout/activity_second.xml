@@ -4,54 +4,57 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     android:orientation="horizontal">
     <TextView
         android:id="@+id/tv_Reading_d"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_weight="1"
         android:text="@string/critical_reading_avg_score_dis" />
     <TextView
         android:id="@+id/tv_Reading"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="@string/critical_reading_avg_score" />
+        android:layout_weight="1"
+        android:text="" />
 </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
     <TextView
         android:id="@+id/tv_Math_dis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_weight="1"
         android:text="@string/math_avg_scor_dis" />
         <TextView
             android:id="@+id/tv_Math"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="@string/math_avg_scor" />
+            android:layout_weight="1"
+            android:text="" />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
         <TextView
             android:id="@+id/tv_Writing_dis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:text="@string/writing_avg_score_dis" />
     <TextView
         android:id="@+id/tv_Writing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="@string/writing_avg_score" />
+        android:layout_weight="1"
+        android:text="" />
     </LinearLayout>
 </LinearLayout>
